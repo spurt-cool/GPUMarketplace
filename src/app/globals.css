@@ -70,17 +70,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 23px;
-    margin-bottom: 23px;
     height: 100%;
 }
 .price {
     color: white;
-    margin: 13px 24px;
     padding: 12px 24px;
 }
 .contact {
-
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 42px;
 }
 
 /* Navigation Side */

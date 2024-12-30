@@ -1,5 +1,3 @@
-import exp from "constants"
-
 const Header = () => {
     return (
         <div className="header">Connect Wallet</div>

@@ -3,7 +3,7 @@ import Header from "@/components/global/Header";
 
 export default function Home() {
     return (
-        <div>
+        <div className="main">
             <Navigation />
             <Header />
         </div>

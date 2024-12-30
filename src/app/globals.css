@@ -28,6 +28,8 @@ body {
     background-size: cover;
 }
 
+/* Navigation Side */
+
 .navigation {
     width: 239px;
     height: 100vh;
@@ -35,9 +37,7 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.header {
-    color: white;
-}
+
 .logo {
     display: flex;
     margin-top: 32px;
@@ -63,3 +63,23 @@ body {
 .contact {
     display: flex;
 }
+
+/* Navigation Side */
+
+/* Header side */
+.header {
+    color: white;
+}
+.btn-wallet {
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'SF Pro Text', sans-serif;
+    padding: 19px 28px;
+    top: 42px;
+    right: 67px;
+}
+/* Header side */
+

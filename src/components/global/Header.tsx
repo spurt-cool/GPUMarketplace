@@ -1,6 +1,9 @@
 const Header = () => {
     return (
-        <div className="header">Connect Wallet</div>
+        <div className="header">
+            <button className="btn-wallet">Connect Wallet</button>
+        
+        </div>
     );
 }
 

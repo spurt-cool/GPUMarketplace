@@ -56,31 +56,34 @@ const Navigation = () => {
                 </div>
             </div>
 
-            <div className="price">
-                <span>$Cache Price:</span>
-                <span>+74%</span>
+            <div className="nav-footer">
+                <div className="price">
+                    <span>$Cache Price:</span>
+                    <span>+74%</span>
+                </div>
+
+                <div className="contact">
+                    <Image
+                        src="img/x.svg"
+                        alt="this is x"
+                        width={22}
+                        height={23}
+                    />
+                    <Image
+                        src="img/fa book.svg"
+                        alt="this is book"
+                        width={42}
+                        height={30}
+                    />
+                    <Image
+                        src="img/telegram.svg"
+                        alt="this is telegram"
+                        width={26}
+                        height={23}
+                    />
+                </div>
             </div>
 
-            <div className="contact">
-                <Image
-                    src="img/x.svg"
-                    alt="this is x"
-                    width={22}
-                    height={23}
-                />
-                <Image
-                    src="img/fa book.svg"
-                    alt="this is book"
-                    width={42}
-                    height={30}
-                />
-                <Image
-                    src="img/telegram.svg"
-                    alt="this is telegram"
-                    width={26}
-                    height={23}
-                />
-            </div>
         </div>
     )
 }

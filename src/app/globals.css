@@ -31,6 +31,9 @@ body {
 /* Navigation Side */
 
 .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
     width: 239px;
     height: 100vh;
     background-color: black;
@@ -55,7 +58,6 @@ body {
     gap: 22px;
     color: gray;
     margin-top: 23px;
-    margin-bottom: 23px;
     padding-right: 32px;
 }
 
@@ -64,14 +66,21 @@ body {
     margin: 13px 0px 13px 39px;
     gap: 15px;
 }
-
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    height: 100%;
+}
 .price {
     color: white;
     margin: 13px 24px;
     padding: 12px 24px;
 }
 .contact {
-    display: flex;
+
 }
 
 /* Navigation Side */

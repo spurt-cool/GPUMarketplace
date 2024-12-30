@@ -40,25 +40,35 @@ body {
 
 .logo {
     display: flex;
-    margin-top: 32px;
-    margin-left: 42px;
+    margin: 32px 42px;
 }
 .logo-title {
     color: white;
     font-family: 'SF Pro Text', sans-serif;
-    font-size: 36px;
-    padding: 11px, 8px, 11px, 8px;
+    font-size: 28px;
+    margin: 11px 8px 11px 8px;
 }
 .nav-items {
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 22px;
+    color: gray;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    padding-right: 32px;
 }
 
 .nav-item {
     display: flex;
+    margin: 13px 0px 13px 39px;
+    gap: 15px;
 }
 
 .price {
     color: white;
+    margin: 13px 24px;
+    padding: 12px 24px;
 }
 .contact {
     display: flex;
